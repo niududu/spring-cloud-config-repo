@@ -1,0 +1,10 @@
+env: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://106.13.217.198:8761/eureka/
+server:
+  port: 9000
+spring:
+  application:
+    name: api-getway
